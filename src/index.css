@@ -1,0 +1,41 @@
+
+body{
+  margin:0px;
+}
+nav{
+  display: flex;
+  font-size: 23px;
+  border-block: 5px solid grey;
+}
+
+.main-title {
+    font-size: 44px;
+    font-weight: bold;
+}
+.main-ul>li::marker {
+    font-size: 1.2rem;
+    color: rgb(99, 99, 233);
+
+}
+
+.main-ul {
+    padding-top: 23px;
+    letter-spacing: 0.002em;
+    line-height: 33px;
+    font-family: 'Trebuchet MS';
+
+
+}
+.mode{
+    margin:auto;
+    font-size: 16px;
+}
+.form-switch{
+    margin-left: 42rem;
+}
+.lightMode{
+    margin:0px 60px;
+}
+.modeOption{
+    background-color: black;
+}
